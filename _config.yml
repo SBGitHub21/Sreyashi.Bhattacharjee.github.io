@@ -1,9 +1,9 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "contrast"
 locale                   : "en-US"
-title: Sreyashi Bhattacharjee's homepage
+title                    : Portfolio
 name                     : "Sreyashi Bhattacharjee"
-description: Bookmark this to keep an eye on my project updates!
+description              : Bookmark this to keep an eye on my project updates!
 
 
 # Site Author
@@ -14,9 +14,6 @@ author:
   location         : "India"
   email            : "bhattacharjee.sreyashi.work@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "bhattacharjee.sreyashi.work@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
@@ -27,7 +24,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -119,4 +116,18 @@ compress_html:
   ignore:
     envs: development
 
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
 

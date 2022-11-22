@@ -10,9 +10,9 @@ description: Bookmark this to keep an eye on my project updates!
 author:
   name             : "Sreyashi Bhattacharjee"
   avatar           : "/assets/images/Photograph_Sreyashi.jpg"
-  bio              : "Hi, I'm Sreyashi . Data Scientist with a passion for story telling. Welcome to my portfolio!"
+  bio              : "Hi, I'm Sreyashi, Data Scientist with a passion for story telling. Welcome to my portfolio!"
   location         : "India"
-  email            :
+  email            : "bhattacharjee.sreyashi.work@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -119,18 +119,4 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
 
